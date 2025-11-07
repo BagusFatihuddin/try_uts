@@ -17,7 +17,7 @@ class BlogController extends Controller
         $posts = Post::data(); //Post merujuk ke nama filenya, data() adalah fungsi di filenya
         $totalPost = Post::count();
         return view('components.product-card', compact('posts', 'totalPost'));  // fungsi view() bawaan php, buat nammpilin 'home'
-      
+
     }
 
 //  $posts = Post::data(); Hasilnya adalah di bahawa
@@ -28,7 +28,7 @@ class BlogController extends Controller
 //     ['id' => 3, 'title' => 'uin', 'content' => 'agama'],
 // ];
 
-    
+
     // single kalo diklik satu2
     public function product_details($id)
     {
@@ -45,11 +45,7 @@ class BlogController extends Controller
     //halaman tentang
     public function about()
     {
-        $info = [
-            'name' => 'deva',
-            'bio' => 'penulis.'
-        ];
 
-        return view('about', compact('info'));
+        return view('components.about');
     }
 }

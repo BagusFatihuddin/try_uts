@@ -5,10 +5,10 @@
 <head>
     <title>@yield('title')</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-   
+
 </head>
 <body>
-    
+
   {{-- Navbar --}}
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
     <div class="container-fluid">
@@ -23,10 +23,10 @@
             <a class="nav-link active" aria-current="page" href="/product">Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/halamanDua">About</a>
+            <a class="nav-link active" aria-current="page" href="/about">About</a>
           </li>
         </ul>
-        
+
 
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search">

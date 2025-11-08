@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
         public function home() {
-            return view('pages.home');
+            $posts = Post::data(); //Post merujuk ke nama filenya, data() adalah fungsi di filenya
+        $totalPost = Post::count();
+            return view('pages.home', compact('posts', 'totalPost'));
         }
 
 

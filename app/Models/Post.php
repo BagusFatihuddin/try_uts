@@ -29,18 +29,6 @@ class Post {
                 'content' => 'Laptop harian dengan desain stylish dan baterai tahan lama.',
                 'image' => 'img/laptop4.jpg',
             ],
-            [
-                'id' => 5,
-                'title' => 'Acer Aspire 5',
-                'content' => 'Laptop ekonomis dengan performa solid untuk pelajar.',
-                'image' => 'img/laptop5.jpg',
-            ],
-            [
-                'id' => 6,
-                'title' => 'Dell XPS 13',
-                'content' => 'Laptop premium dengan bezel tipis dan build kualitas tinggi.',
-                'image' => 'img/laptop6.jpg',
-            ],
         ];
     }
 
